@@ -34,7 +34,7 @@ spring.jpa.properties.hibernate.format_sql=true
 mvn spring-boot:run
 ```
 
-4. A API ficará disponível em `http://localhost:8080`.
+4. A API ficará disponível em `http://localhost:5000`.
 
 ## Endpoints
 
@@ -60,7 +60,7 @@ Base path: `/api/tarefas`
 Exemplo curl:
 
 ```bash
-curl -i -X POST http://localhost:8080/api/tarefas \
+curl -i -X POST http://localhost:5000/api/tarefas \
   -H 'Content-Type: application/json' \
   -d '{"nome":"Implementar autenticação","dataEntrega":"2025-09-15","responsavel":"Maria Silva"}'
 ```
@@ -75,7 +75,7 @@ curl -i -X POST http://localhost:8080/api/tarefas \
 Exemplo curl:
 
 ```bash
-curl -s 'http://localhost:8080/api/tarefas?page=0&size=10&sort=nome,asc'
+curl -s 'http://localhost:5000/api/tarefas?page=0&size=10&sort=nome,asc'
 ```
 
 ### Detalhar tarefa
@@ -88,7 +88,7 @@ curl -s 'http://localhost:8080/api/tarefas?page=0&size=10&sort=nome,asc'
 Exemplo curl:
 
 ```bash
-curl -i http://localhost:8080/api/tarefas/1
+curl -i http://localhost:5000/api/tarefas/1
 ```
 
 ### Atualizar tarefa
@@ -103,7 +103,7 @@ curl -i http://localhost:8080/api/tarefas/1
 Exemplo curl:
 
 ```bash
-curl -i -X PUT http://localhost:8080/api/tarefas/1 \
+curl -i -X PUT http://localhost:5000/api/tarefas/1 \
   -H 'Content-Type: application/json' \
   -d '{"nome":"Refatorar módulo","dataEntrega":"2025-10-01","responsavel":"João Souza"}'
 ```
@@ -118,7 +118,7 @@ curl -i -X PUT http://localhost:8080/api/tarefas/1 \
 Exemplo curl:
 
 ```bash
-curl -i -X DELETE http://localhost:8080/api/tarefas/1
+curl -i -X DELETE http://localhost:5000/api/tarefas/1
 ```
 
 ## Modelo de dados

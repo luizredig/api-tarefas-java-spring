@@ -1,0 +1,9 @@
+com/felipe/tarefas/service/TarefaService.class
+com/felipe/tarefas/dto/TarefaResponse.class
+com/felipe/tarefas/model/Tarefa.class
+com/felipe/tarefas/exception/NotFoundException.class
+com/felipe/tarefas/exception/GlobalExceptionHandler.class
+com/felipe/tarefas/dto/TarefaRequest.class
+com/felipe/tarefas/controller/TarefaController.class
+com/felipe/tarefas/repository/TarefaRepository.class
+com/felipe/tarefas/TarefasApplication.class

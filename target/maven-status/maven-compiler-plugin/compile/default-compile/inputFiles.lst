@@ -1,0 +1,9 @@
+/app/src/main/java/com/felipe/tarefas/TarefasApplication.java
+/app/src/main/java/com/felipe/tarefas/controller/TarefaController.java
+/app/src/main/java/com/felipe/tarefas/dto/TarefaRequest.java
+/app/src/main/java/com/felipe/tarefas/dto/TarefaResponse.java
+/app/src/main/java/com/felipe/tarefas/exception/GlobalExceptionHandler.java
+/app/src/main/java/com/felipe/tarefas/exception/NotFoundException.java
+/app/src/main/java/com/felipe/tarefas/model/Tarefa.java
+/app/src/main/java/com/felipe/tarefas/repository/TarefaRepository.java
+/app/src/main/java/com/felipe/tarefas/service/TarefaService.java
